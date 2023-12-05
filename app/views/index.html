@@ -4,6 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dad Jokes</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+  body{
+    background-color: purple;
+  }
+  .jumbotron {
+    background-color: gold;
+  }
+</style>
 </head>
 <!-- the getRandom joke function gets called on page load -->
 <body onload="getRandomJoke()">  
@@ -14,8 +23,8 @@
     <h3 id="joke-question"></h3>
     <p id="joke-answer"></p>
     <button class="btn btn-primary" onclick="getRandomJoke()">Get Another Joke</button>
-    <a href="/features/addjoke/addjoke.html" class="btn btn-primary">Add a Joke</a>
-    <a href="/features/jokelist/jokelist.html" class="btn btn-primary">List all Jokes</a>
+    <a href="/features/addjoke/addjoke.html" class="btn btn-success">Add a Joke</a>
+    <a href="/features/jokelist/jokelist.html" class="btn btn-info">List all Jokes</a>
   </div>
 
   <script >
@@ -24,7 +33,7 @@
 
   <footer>
     <center>
-      <p> <font color="white">&copy, S, Buchanan</font> </p>
+      <p> <font color="white">&copy, S. Buchanan</font> </p>
     </center>
   </footer>
 </body>
